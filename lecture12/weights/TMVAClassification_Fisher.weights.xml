@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<MethodSetup Method="Fisher::Fisher">
+  <GeneralInfo>
+    <Info name="TMVA Release" value="4.2.0 [262656]"/>
+    <Info name="ROOT Release" value="5.34/36 [336420]"/>
+    <Info name="Creator" value="Apple"/>
+    <Info name="Date" value="Mon Nov  5 14:04:27 2018"/>
+    <Info name="Host" value="Darwin Applede-MacBook-Air.local 15.6.0 Darwin Kernel Version 15.6.0: Mon Jan 9 23:07:29 PST 2017; root:xnu-3248.60.11.2.1~1/RELEASE_X86_64 x86_64"/>
+    <Info name="Dir" value="/Users/Apple/tmp_Experiment_particle/lecture12"/>
+    <Info name="Training events" value="40000"/>
+    <Info name="TrainingTime" value="1.55489445e-02"/>
+    <Info name="AnalysisType" value="Classification"/>
+  </GeneralInfo>
+  <Options>
+    <Option name="V" modified="Yes">False</Option>
+    <Option name="VerbosityLevel" modified="No">Default</Option>
+    <Option name="VarTransform" modified="Yes">None</Option>
+    <Option name="H" modified="Yes">True</Option>
+    <Option name="CreateMVAPdfs" modified="Yes">True</Option>
+    <Option name="IgnoreNegWeightsInTraining" modified="No">False</Option>
+    <Option name="Method" modified="Yes">Fisher</Option>
+  </Options>
+  <Variables NVar="2">
+    <Variable VarIndex="0" Expression="x" Label="x" Title="x" Unit="" Internal="x" Type="F" Min="-2.99082905e-01" Max="1.53824639e+00"/>
+    <Variable VarIndex="1" Expression="y" Label="y" Title="y" Unit="" Internal="y" Type="F" Min="-4.68122602e-01" Max="1.68016529e+00"/>
+  </Variables>
+  <Spectators NSpec="0"/>
+  <Classes NClass="2">
+    <Class Name="Signal" Index="0"/>
+    <Class Name="Background" Index="1"/>
+  </Classes>
+  <Transformations NTransformations="0"/>
+  <MVAPdfs>
+    <PDF Name="Fisher_PDFSig" MinNSmooth="10" MaxNSmooth="10" InterpolMethod="2" KDE_type="1" KDE_iter="1" KDE_border="1" KDE_finefactor="1.0000000000000000e+00">
+      <Histogram Name="Fisher_tr_S_original" NBins="50" XMin="-3.5041861534118652e+00" XMax="3.0917274951934814e+00" HasEquidistantBins="1">
+        0.00000000e+00 0.00000000e+00 3.79041500e-04 0.00000000e+00 3.79041500e-04 0.00000000e+00 3.79041500e-04 0.00000000e+00 1.13712450e-03 0.00000000e+00 1.51616600e-03 1.89520750e-03 3.79041500e-04 7.58083001e-04 5.68562251e-03 1.89520750e-03 5.30658101e-03 7.58083001e-03 9.09699601e-03 1.55407015e-02 2.08472825e-02 3.22185275e-02 3.90412745e-02 5.79933496e-02 9.05909186e-02 1.15986699e-01 1.63745928e-01 2.27803942e-01 3.04370325e-01 3.86243289e-01 4.98439573e-01 5.71594583e-01 6.49677132e-01 7.31929137e-01 6.77726203e-01 6.98952527e-01 5.69320334e-01 4.81003664e-01 4.07090571e-01 2.95652370e-01 2.08093784e-01 1.28116027e-01 7.46711756e-02 5.04125196e-02 2.95652370e-02 8.33891301e-03 4.92753951e-03 2.65329050e-03 1.13712450e-03 3.79041500e-04 
+      </Histogram>
+    </PDF>
+    <PDF Name="Fisher_PDFBkg" MinNSmooth="10" MaxNSmooth="10" InterpolMethod="2" KDE_type="1" KDE_iter="1" KDE_border="1" KDE_finefactor="1.0000000000000000e+00">
+      <Histogram Name="Fisher_tr_B_original" NBins="50" XMin="-3.5041861534118652e+00" XMax="3.0917274951934814e+00" HasEquidistantBins="1">
+        2.65315784e-03 3.03218039e-03 6.44338332e-03 7.20142842e-03 1.62979696e-02 2.80476686e-02 3.18378941e-02 5.57163146e-02 6.97401489e-02 9.70297724e-02 1.64116763e-01 2.05430221e-01 2.57356310e-01 3.11935557e-01 3.71063075e-01 3.85465932e-01 4.89697133e-01 4.84390817e-01 5.27599387e-01 5.18881869e-01 5.56784124e-01 4.92729313e-01 4.43077359e-01 4.16924803e-01 3.45668564e-01 3.07387287e-01 2.57356310e-01 1.98228793e-01 1.51988042e-01 1.20150148e-01 8.86912763e-02 5.49582695e-02 3.94183450e-02 2.50154882e-02 1.81930823e-02 1.17496990e-02 7.95947352e-03 4.92729313e-03 2.27413529e-03 1.51609019e-03 1.13706765e-03 0.00000000e+00 3.79022548e-04 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 
+      </Histogram>
+    </PDF>
+  </MVAPdfs>
+  <Weights NCoeff="3">
+    <Coefficient Index="0" Value="-5.3050331052227238e+00"/>
+    <Coefficient Index="1" Value="4.3385105144829073e+00"/>
+    <Coefficient Index="2" Value="2.4855228839496277e+00"/>
+  </Weights>
+</MethodSetup>

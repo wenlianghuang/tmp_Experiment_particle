@@ -1,0 +1,56 @@
+
+# DO NOT DELETE
+
+./example08_cc.so: weights/TMVAClassification_Fisher.class.C
+./example08_cc.so: /usr/local/src/root/include/TFile.h
+./example08_cc.so: /usr/local/src/root/include/TDirectoryFile.h
+./example08_cc.so: /usr/local/src/root/include/TDirectory.h
+./example08_cc.so: /usr/local/src/root/include/TNamed.h
+./example08_cc.so: /usr/local/src/root/include/TObject.h
+./example08_cc.so: /usr/local/src/root/include/Rtypes.h
+./example08_cc.so: /usr/local/src/root/include/RConfig.h
+./example08_cc.so: /usr/local/src/root/include/RVersion.h
+./example08_cc.so: /usr/local/src/root/include/DllImport.h
+./example08_cc.so: /usr/local/src/root/include/Rtypeinfo.h
+./example08_cc.so: /usr/local/src/root/include/snprintf.h
+./example08_cc.so: /usr/local/src/root/include/strlcpy.h
+./example08_cc.so: /usr/local/src/root/include/TGenericClassInfo.h
+./example08_cc.so: /usr/local/src/root/include/TSchemaHelper.h
+./example08_cc.so: /usr/local/src/root/include/TStorage.h
+./example08_cc.so: /usr/local/src/root/include/TVersionCheck.h
+./example08_cc.so: /usr/local/src/root/include/Riosfwd.h
+./example08_cc.so: /usr/local/src/root/include/TBuffer.h
+./example08_cc.so: /usr/local/src/root/include/TString.h
+./example08_cc.so: /usr/local/src/root/include/TMathBase.h
+./example08_cc.so: /usr/local/src/root/include/TList.h
+./example08_cc.so: /usr/local/src/root/include/TSeqCollection.h
+./example08_cc.so: /usr/local/src/root/include/TCollection.h
+./example08_cc.so: /usr/local/src/root/include/TIterator.h
+./example08_cc.so: /usr/local/src/root/include/TDatime.h
+./example08_cc.so: /usr/local/src/root/include/TUUID.h
+./example08_cc.so: /usr/local/src/root/include/TMap.h
+./example08_cc.so: /usr/local/src/root/include/THashTable.h
+./example08_cc.so: /usr/local/src/root/include/TUrl.h
+./example08_cc.so: /usr/local/src/root/include/TRandom3.h
+./example08_cc.so: /usr/local/src/root/include/TRandom.h
+./example08_cc.so: /usr/local/src/root/include/TNtuple.h
+./example08_cc.so: /usr/local/src/root/include/TTree.h
+./example08_cc.so: /usr/local/src/root/include/TBranch.h
+./example08_cc.so: /usr/local/src/root/include/TObjArray.h
+./example08_cc.so: /usr/local/src/root/include/TAttFill.h
+./example08_cc.so: /usr/local/src/root/include/TDataType.h
+./example08_cc.so: /usr/local/src/root/include/TDictionary.h
+./example08_cc.so: /usr/local/src/root/include/Property.h
+./example08_cc.so: /usr/local/src/root/include/ESTLType.h
+./example08_cc.so: /usr/local/src/root/include/TAttLine.h
+./example08_cc.so: /usr/local/src/root/include/TAttMarker.h
+./example08_cc.so: /usr/local/src/root/include/TArrayD.h
+./example08_cc.so: /usr/local/src/root/include/TArray.h
+./example08_cc.so: /usr/local/src/root/include/TArrayI.h
+./example08_cc.so: /usr/local/src/root/include/TClass.h
+./example08_cc.so: /usr/local/src/root/include/TObjString.h
+./example08_cc.so: /usr/local/src/root/include/ThreadLocalStorage.h
+./example08_cc.so: /usr/local/src/root/include/RConfigure.h
+./example08_cc.so: /usr/local/src/root/include/TVirtualTreePlayer.h
+./example08_cc.so: /usr/local/src/root/include/cintdictversion.h /usr/local/src/root/include/RVersion.h
+example08_cc__ROOTBUILDVERSION= 5.34/36
