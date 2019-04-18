@@ -52,6 +52,7 @@ int main()
     Foo3 f3;
     Foo4 f4;
 
+    Foo1 *f11 = new Foo1;
     showFooByPtr(&f1);
     showFooByPtr(&f2);
     //showFooByPtr(&f3);
@@ -70,5 +71,7 @@ int main()
     f2.show();
     f3.show();
     f4.show();
+    f11->show();
+    delete f11;
 }
 
